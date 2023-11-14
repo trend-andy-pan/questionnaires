@@ -12,14 +12,7 @@ i18n
       loadPath: `/questionnaires/locales/{{lng}}/{{ns}}.json`,
     },
     detection: {
-      order: [
-        "querystring",
-        "cookie",
-        "localStorage",
-        "sessionStorage",
-        "navigator",
-        "htmlTag",
-      ],
+      order: ["querystring", "navigator"],
     },
     defaultNS: "app",
     lowerCaseLng: true,
