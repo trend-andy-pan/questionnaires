@@ -19,8 +19,6 @@ i18n
         "sessionStorage",
         "navigator",
         "htmlTag",
-        "path",
-        "subdomain",
       ],
     },
     defaultNS: "app",
