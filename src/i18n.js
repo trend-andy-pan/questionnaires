@@ -9,7 +9,7 @@ i18n
   .use(LanguageDetector)
   .init({
     backend: {
-      loadPath: `/questionnaires/locales/{{lng}}/{{ns}}.json`,
+      loadPath: `${process.env.PUBLIC_URL}/locales/{{lng}}/{{ns}}.json`,
     },
     detection: {
       order: ["querystring", "navigator"],
