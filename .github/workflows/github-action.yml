@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - feature/*
   repository_dispatch:
     type:
       - submit-request
