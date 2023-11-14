@@ -18,7 +18,7 @@ i18n
     lowerCaseLng: true,
     ns: ["app"],
     fallbackLng: "en",
-    whitelist: ["en", "zh-tw"],
+    whitelist: ["en", "zh"],
     keySeparator: false,
     interpolation: {
       escapeValue: false,
